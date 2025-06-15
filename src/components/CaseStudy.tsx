@@ -1,8 +1,15 @@
 
 import { ArrowLeft, Calendar, User, ExternalLink, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
 const CaseStudy = () => {
+  const navigate = useNavigate();
+
+  const handleBackClick = () => {
+    navigate('/');
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation Back */}
@@ -11,6 +18,7 @@ const CaseStudy = () => {
           <Button 
             variant="ghost" 
             className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
+            onClick={handleBackClick}
           >
             <ArrowLeft className="w-4 h-4" />
             Back to Portfolio
