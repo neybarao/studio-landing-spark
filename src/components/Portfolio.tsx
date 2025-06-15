@@ -1,7 +1,10 @@
 
 import { ExternalLink, ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
+  const navigate = useNavigate();
+  
   const projects = [
     {
       title: "Modern SaaS Platform",
@@ -37,6 +40,10 @@ const Portfolio = () => {
     }
   ];
 
+  const handleProjectClick = () => {
+    navigate('/case-study');
+  };
+
   return (
     <section id="portfolio" className="py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
@@ -55,7 +62,11 @@ const Portfolio = () => {
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {projects.map((project, index) => (
-            <div key={index} className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+            <div 
+              key={index} 
+              className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 cursor-pointer"
+              onClick={handleProjectClick}
+            >
               <div className="relative overflow-hidden">
                 <img 
                   src={project.image} 
