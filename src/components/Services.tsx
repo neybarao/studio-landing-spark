@@ -5,35 +5,35 @@ const Services = () => {
   const services = [
     {
       icon: Palette,
-      title: "Design Digital",
-      description: "Criamos identidades visuais marcantes que conectam sua marca com o público-alvo de forma autêntica.",
-      features: ["Identidade Visual", "UI/UX Design", "Branding", "Design Gráfico"]
+      title: "Digital Design",
+      description: "We create striking visual identities that connect your brand with the target audience authentically.",
+      features: ["Visual Identity", "UI/UX Design", "Branding", "Graphic Design"]
     },
     {
       icon: Code,
-      title: "Desenvolvimento",
-      description: "Desenvolvemos sites e aplicações web modernas, responsivas e otimizadas para conversão.",
-      features: ["Sites Responsivos", "E-commerce", "Aplicações Web", "Otimização SEO"]
+      title: "Development",
+      description: "We develop modern, responsive websites and web applications optimized for conversion.",
+      features: ["Responsive Sites", "E-commerce", "Web Applications", "SEO Optimization"]
     },
     {
       icon: Search,
-      title: "Marketing Digital",
-      description: "Estratégias digitais integradas que amplificam o alcance da sua marca e geram resultados.",
-      features: ["Estratégia Digital", "Redes Sociais", "Content Marketing", "Analytics"]
+      title: "Digital Marketing",
+      description: "Integrated digital strategies that amplify your brand reach and generate real results.",
+      features: ["Digital Strategy", "Social Media", "Content Marketing", "Analytics"]
     },
     {
       icon: Zap,
-      title: "Consultoria",
-      description: "Consultoria especializada para transformar desafios digitais em oportunidades de crescimento.",
-      features: ["Análise de Mercado", "Estratégia Digital", "Transformação Digital", "Growth Hacking"]
+      title: "Consulting",
+      description: "Specialized consulting to transform digital challenges into growth opportunities.",
+      features: ["Market Analysis", "Digital Strategy", "Digital Transformation", "Growth Hacking"]
     }
   ];
 
   const stats = [
-    { number: "5", label: "anos", description: "de experiência no mercado digital" },
-    { number: "150+", label: "casos", description: "de sucesso entregues para clientes" },
-    { number: "3", label: "países", description: "onde nossos projetos fazem a diferença" },
-    { number: "∞", label: "infinitas", description: "possibilidades para sua marca" }
+    { number: "5", label: "years", description: "of experience in the digital market" },
+    { number: "150+", label: "success", description: "cases delivered to clients" },
+    { number: "3", label: "countries", description: "where our projects make a difference" },
+    { number: "∞", label: "infinite", description: "possibilities for your brand" }
   ];
 
   return (
@@ -42,14 +42,14 @@ const Services = () => {
         {/* Main Services */}
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Acreditamos em um design
+            We believe in design
             <span className="block text-transparent bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text">
-              com visão de futuro.
+              with future vision.
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Combinamos criatividade, estratégia e tecnologia para criar experiências digitais 
-            que não apenas impressionam, mas geram resultados reais para o seu negócio.
+            We combine creativity, strategy and technology to create digital experiences 
+            that not only impress, but generate real results for your business.
           </p>
         </div>
 

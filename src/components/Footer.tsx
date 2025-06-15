@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="text-2xl font-bold mb-6">
-              Studio<span className="text-purple-400">X</span>
+              Resonate
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Creating digital experiences that drive results and inspire action. 
@@ -61,7 +61,7 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-purple-400 mr-3" />
-                <span className="text-gray-300">hello@studiox.com</span>
+                <span className="text-gray-300">hello@resonate.com</span>
               </div>
               <div className="text-gray-300">
                 123 Design Street<br />
@@ -78,7 +78,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 mb-4 md:mb-0">
-            © 2024 StudioX. All rights reserved.
+            © 2024 Resonate. All rights reserved.
           </div>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
